@@ -1,3 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,900);
+
+img {
+	width: 100%;
+	margin-top: 1em;
+}
+
+.fill {
+	margin-bottom: 9em;
+}
+
+.fillmini {
+	margin-bottom: 4em;
+}
+
+
+.intro {
+	font-family: 'Source Sans Pro';
+	font-weight: 300;
+	font-size: 30px;
+	margin-bottom: 2em;
+}
+
+.bold {
+	font-weight: 900;
+}
+
+p {
+	font-size: 22px;
+	font-family: 'Source Sans Pro';
+	font-weight: 300;
+	margin-bottom: 1em;
+}
+
 .show-mobile {
 	display: block;
 }
@@ -6,9 +40,17 @@
 	display: none;
 }
 
-body {
+.link {
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
 }
 
+.link:hover {
+	text-decoration: none;
+	color: black;
+
+}
 
 /*navigation*/
 	/*Don't change anything here unless you run into problems with spacing on section links*/
@@ -88,23 +130,36 @@ body {
 	margin-bottom: 1em;
 }
 
-p {
+
+
+.header {
+	width: 85%;
+	height: auto;
+	margin-top: 10em;
 	margin-bottom: 3em;
 }
 
-.header {
+.headermobile {
 	width: 100%;
 	height: auto;
-	margin-top: 10em;
-	margin-bottom: 5em;
+	margin-top: 6em;
+	margin-bottom: 3em;
 }
 
 .menuimg {
 	width: 40px; 
 	height: auto;
 	padding-right: 10px;
+	margin-top: none;
 }
 
+.caption {
+	font-size: 16px;
+}
+
+iframe {
+	margin-bottom: 2em;
+}
 
 /* Medium devices (desktops, 960px and up) */
 @media (min-width:600px) { 
